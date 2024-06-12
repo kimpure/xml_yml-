@@ -15,7 +15,7 @@ def change_yml(element, indent=0):
         if len(key):
             return_var += change_yml(key, indent + 1)
         else:
-            return_var = f'{return_var}\n{_}    {key.tag}: {key.text}'
+            return_var = f'\n{return_var}{_}    {key.tag}: {key.text}'
 
     return return_var
 
