@@ -1,0 +1,8 @@
+data:
+    item:
+    
+        name: Item 1
+        price: 100item:
+    
+        name: Item 2
+        price: 200
